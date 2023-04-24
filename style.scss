@@ -152,7 +152,7 @@ $primary-color: #334858 ;
             }
         }
         &-about{
-            
+
             img{
                 display: none;
                 @media screen and (min-width:1000px) {
@@ -165,6 +165,34 @@ $primary-color: #334858 ;
 
             p{
                 line-height: 1.6;
+            }
+        }
+    }
+
+    &-inspiration{
+        &-header{
+            background: url('/asset/images/inspiration_header.png');
+            background-position: center;
+            background-size: cover;
+
+            h1 {
+                    font-size: 3.5rem;
+                    font-weight: 800;
+            
+                    @media screen and (max-width:768px) {
+                        font-size: 2.8rem;
+                    }
+                }
+            
+        }
+
+        &-carousel{
+            .card{
+                border-radius: 24px;
+                background: #FFFFFF;
+                box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+                border-radius: 24px;
+                border: none;
             }
         }
     }
