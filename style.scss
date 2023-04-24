@@ -151,6 +151,22 @@ $primary-color: #334858 ;
                 border-radius: 15px;
             }
         }
+        &-about{
+            
+            img{
+                display: none;
+                @media screen and (min-width:1000px) {
+                    display: block;
+                    position: absolute;
+                    bottom: 0;
+                    max-width: 480px;
+                }
+            }
+
+            p{
+                line-height: 1.6;
+            }
+        }
     }
 }
 
