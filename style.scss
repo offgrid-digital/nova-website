@@ -16,7 +16,7 @@ $primary-color: #334858 ;
     background: $base-gradient !important;
 }
 .bg-base-green{
-    background: #67C2C1
+    background: #67C2C1 !important;
 }
 
 .text-primary{
@@ -193,6 +193,94 @@ $primary-color: #334858 ;
                 box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
                 border-radius: 24px;
                 border: none;
+            }
+        }
+    }
+
+    &-beadcrete{
+        &-header {
+            background: url('/asset/images/beadcrete_header.png');
+            background-position: center;
+            background-size: cover;
+    
+            h1 {
+                font-size: 3.5rem;
+                font-weight: 800;
+    
+                @media screen and (max-width:768px) {
+                    font-size: 2.8rem;
+                }
+            }
+
+            .card{
+                background: rgba(255, 255, 255, 0.9);
+                box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+                backdrop-filter: blur(10px);
+                /* Note: backdrop-filter has minimal browser support */
+            
+                border-radius: 15px;
+
+                
+            }
+
+            &-list{
+                span{
+                    position: relative;
+                    top: -2.5px;
+                }
+            }
+    
+        }
+        &-about{
+            h1 {
+                font-size: 3.5rem;
+                font-weight: 800;
+        
+                @media screen and (max-width:768px) {
+                    font-size: 2.8rem;
+                }
+            }
+
+            .card{
+                background: linear-gradient(78.97deg, #334858 -3.78%, #66C1C0 96.59%);
+                    box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+                    border-radius: 15px;
+            }
+        }
+        &-finish{
+            .card{
+                box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+                border-radius: 24px;
+
+
+                img{
+                    width: 75%;
+
+                    @media screen and (max-width:768px) {
+                        width: 100%;
+                    }
+                }
+
+                .order-laster{
+                    @media screen and (max-width:768px) {
+                       order: 2;
+                    }
+                }
+
+                .text-sm-center{
+                    @media screen and (max-width:768px) {
+                        text-align: center ;
+                    }
+                }
+
+            }
+        }
+
+        &-color-range{
+            .card{
+                background: #FFFFFF;
+                box-shadow: 0px 4px 66px rgba(0, 0, 0, 0.06);
+                border-radius: 24px;
             }
         }
     }
