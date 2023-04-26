@@ -92,8 +92,9 @@
                             </div>
                         </div>
                         <div class="py-4">
-                            <a href="#" class="btn btn-gradient btn-lg rounded-pill fw-600 py-2 px-5 fs-4"
-                                style="">Begin Resurfacing My Pool Now</a>
+                            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal"
+                                class="btn btn-gradient btn-lg rounded-pill fw-600 py-2 px-5 fs-4" style="">Begin
+                                Resurfacing My Pool Now</a>
                         </div>
                     </div>
                     <div class="col-md-6 py-4">
@@ -187,7 +188,7 @@
                     </div>
 
                     <div class="col-md-5 mt-5 text-center">
-                        <a href="#" class="btn btn-lg btn-gradient rounded-pill px-5 py-3 fs-4 fw-bold">
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-lg btn-gradient rounded-pill px-5 py-3 fs-4 fw-bold">
                             Begin Resurfacing My Pool Now
                         </a>
                     </div>
@@ -304,7 +305,7 @@
         </section>
 
         <div class="py-5 mb-4 text-center container">
-            <a href="#" class="btn btn-gradient btn-lg rounded-pill fw-600 py-3 px-5 fs-4" style="">Begin Resurfacing My
+            <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-gradient btn-lg rounded-pill fw-600 py-3 px-5 fs-4" style="">Begin Resurfacing My
                 Pool
                 Now</a>
         </div>
@@ -350,21 +351,22 @@
                             <div class="card-body py-4">
                                 <div class="row justify-content-center align-items-center">
                                     <div class="col-md-10">
-                                       <div class="d-flex align-items-center">
+                                        <div class="d-flex align-items-center">
                                             <div>
                                                 <img src="/asset/images/user-dp.png" class="mw-100 rounded" alt="">
                                             </div>
-                                            <div  class="mx-3 text-start">
+                                            <div class="mx-3 text-start">
                                                 <h4 class="fw-bold text-primary">James</h4>
                                                 <h5 class="fw-500 text-primary mb-0">Miranda</h5>
                                                 <!-- <p class="fw-500 text-primary">Dec, 2021</p> -->
 
-                                                
+
                                             </div>
-                                       </div>
+                                        </div>
                                         <div class="pt-4">
                                             <h4 class="text-primary text-start fw-500">
-                                                Raf is the best! He smashed out the work with his team in a couple of days
+                                                Raf is the best! He smashed out the work with his team in a couple of
+                                                days
                                                 and we could still use the pool before
                                                 Christmas.
                                             </h4>
@@ -399,9 +401,22 @@
                                 </div>
 
                                 <div class="form mb-5 pb-4">
-                                    <a href="#" class="btn btn-lg btn-gradient rounded-pill px-5 py-3 fs-4 fw-bold">
+
+                                    <div class="my-2">
+                                        <iframe src="https://link.offgriddigital.com.au/widget/form/fCVpICODak0PF8C9Ucic"
+                                            style="width:100%;height:100%;border:none;border-radius:16px" id="inline-fCVpICODak0PF8C9Ucic"
+                                            data-layout="{'id':'INLINE'}" data-trigger-type="alwaysShow" data-trigger-value=""
+                                            data-activation-type="alwaysActivated" data-activation-value="" data-deactivation-type="neverDeactivate"
+                                            data-deactivation-value="" data-form-name="Nova-Abreu-Request-Ebook" data-height="450"
+                                            data-layout-iframe-id="inline-fCVpICODak0PF8C9Ucic" data-form-id="fCVpICODak0PF8C9Ucic"
+                                            title="Nova-Abreu-Request-Ebook">
+                                        </iframe>
+                                        <script src="https://link.offgriddigital.com.au/js/form_embed.js"></script>
+                                    </div>
+
+                                    <!-- <a href="#" class="btn btn-lg btn-gradient rounded-pill px-5 py-3 fs-4 fw-bold">
                                         Send Me My Copy Now
-                                    </a>
+                                    </a> -->
                                 </div>
                             </div>
                         </div>
@@ -442,7 +457,8 @@
                             <div class="mb-3"><a href="/index.html" class="text-primary fw-500">Home</a></div>
                             <div class="mb-3"><a href="/our-process.html" class="text-primary fw-500">Our Process</a>
                             </div>
-                            <div class="mb-3"><a href="/why-beadcrete.html" class="text-primary fw-500">Why BeadCrete</a></div>
+                            <div class="mb-3"><a href="/why-beadcrete.html" class="text-primary fw-500">Why
+                                    BeadCrete</a></div>
                             <div class="mb-3"><a href="/inspiration.html" class="text-primary fw-500">Inspiration</a>
                             </div>
 
@@ -466,7 +482,7 @@
                                     alt=""></span> 0416 798 659</p>
                         <p class="text-primary fw-500 mb-2 pb-4"> <span><img src="/asset/images/message-icon.png"
                                     width="24" alt=""></span> admin@novaabreu.com.au</p>
-                        <a class="nav-link btn btn-gradient px-4 py-2 text-white rounded-pill fw-600" href="#">
+                        <a class="nav-link btn btn-gradient px-4 py-2 text-white rounded-pill fw-600" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Request a price
                         </a>
                     </div>
@@ -474,6 +490,26 @@
             </div>
         </div>
     </footer>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        style=" backdrop-filter: blur(10px);">
+        <div class="modal-dialog">
+            <div class="modal-content" style="border-radius: 16px;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Begin Resurfacing My Pool Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://link.offgriddigital.com.au/widget/survey/uemh5iPd2ZRg5Kx39Zrs"
+                        style="border:none;width:100%;" scrolling="no" id="uemh5iPd2ZRg5Kx39Zrs"
+                        title="Survey 2"></iframe>
+                    <script src="https://link.offgriddigital.com.au/js/form_embed.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
 
 
 

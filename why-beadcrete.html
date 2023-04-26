@@ -122,7 +122,7 @@
             <div class="row justify-content-center">
                 <div class="col-md-6 text-center">
                     <div class="py-5">
-                        <a href="#" class="btn btn-gradient btn-lg rounded-pill fw-600 py-2 px-5 fs-3" style="">Begin
+                        <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-gradient btn-lg rounded-pill fw-600 py-2 px-5 fs-3" style="">Begin
                             Resurfacing My Pool
                             Now</a>
                     </div>
@@ -473,7 +473,7 @@
         <div class="container mb-5">
             <div class="row justify-content-center">
                 <div class="col-md-5 my-5 text-center">
-                    <a href="#" class="btn btn-lg btn-gradient rounded-pill px-5 py-3 fs-4 fw-bold">
+                    <a href="#" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn btn-lg btn-gradient rounded-pill px-5 py-3 fs-4 fw-bold">
                         Begin Resurfacing My Pool Now
                     </a>
                 </div>
@@ -533,7 +533,7 @@
                                     alt=""></span> 0416 798 659</p>
                         <p class="text-primary fw-500 mb-2 pb-4"> <span><img src="/asset/images/message-icon.png"
                                     width="24" alt=""></span> admin@novaabreu.com.au</p>
-                        <a class="nav-link btn btn-gradient px-4 py-2 text-white rounded-pill fw-600" href="#">
+                        <a class="nav-link btn btn-gradient px-4 py-2 text-white rounded-pill fw-600" href="#" data-bs-toggle="modal" data-bs-target="#exampleModal">
                             Request a price
                         </a>
                     </div>
@@ -542,7 +542,23 @@
         </div>
     </footer>
 
-
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        style=" backdrop-filter: blur(10px);">
+        <div class="modal-dialog">
+            <div class="modal-content" style="border-radius: 16px;">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Begin Resurfacing My Pool Now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <iframe src="https://link.offgriddigital.com.au/widget/survey/uemh5iPd2ZRg5Kx39Zrs"
+                        style="border:none;width:100%;" scrolling="no" id="uemh5iPd2ZRg5Kx39Zrs" title="Survey 2"></iframe>
+                    <script src="https://link.offgriddigital.com.au/js/form_embed.js"></script>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- jQuery CDN -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.js"
