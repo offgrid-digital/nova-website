@@ -153,13 +153,25 @@ $primary-color: #334858 ;
         }
         &-about{
 
+            .image-parent{
+                @media screen and (max-width:999px) {
+                    order: 2;
+                }
+            }
             img{
-                display: none;
+                // display: none;
                 @media screen and (min-width:1000px) {
                     display: block;
                     position: absolute;
                     bottom: 0;
                     max-width: 480px;
+                }
+
+                // display: none;
+                @media screen and (max-width:999px) {
+                    display: block;
+                    position: unset;
+                    max-width: 100%;
                 }
             }
 

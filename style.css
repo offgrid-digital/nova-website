@@ -146,8 +146,12 @@ body {
   border-radius: 15px;
 }
 
-.nova-process-about img {
-  display: none;
+@media screen and (max-width: 999px) {
+  .nova-process-about .image-parent {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+  }
 }
 
 @media screen and (min-width: 1000px) {
@@ -156,6 +160,14 @@ body {
     position: absolute;
     bottom: 0;
     max-width: 480px;
+  }
+}
+
+@media screen and (max-width: 999px) {
+  .nova-process-about img {
+    display: block;
+    position: unset;
+    max-width: 100%;
   }
 }
 
